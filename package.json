@@ -1,0 +1,27 @@
+{
+	"name": "@bombenprodukt/vi",
+	"version": "0.0.0",
+	"private": true,
+	"workspaces": [
+		"packages/*"
+	],
+	"scripts": {
+		"build": "turbo run build",
+		"dev": "turbo run dev",
+		"format": "prettier --write \"**/*.{ts,tsx,md}\"",
+		"lint": "turbo run lint",
+		"test": "turbo run test"
+	},
+	"devDependencies": {
+		"@sindresorhus/tsconfig": "^3.0.1",
+		"del-cli": "^5.0.0",
+		"turbo": "latest",
+		"typescript": "^5.0.3",
+		"vite": "^4.2.1",
+		"vitest": "^0.29.8"
+	},
+	"packageManager": "pnpm@8.1.0",
+	"engines": {
+		"node": ">=19.0.0"
+	}
+}

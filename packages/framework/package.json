@@ -1,0 +1,25 @@
+{
+	"name": "@bombenprodukt/vi-framework",
+	"version": "1.0.0",
+	"description": "A common interface for reusable Value Store implementations in TypeScript.",
+	"repository": "https://github.com/BombenProdukt/vi",
+	"funding": "https://github.com/sponsors/faustbrian",
+	"license": "MIT",
+	"author": {
+		"name": "Brian Faust",
+		"email": "brian@bombenprodukt.com",
+		"url": "https://bombenprodukt.com"
+	},
+	"type": "module",
+	"main": "./distribution/index.js",
+	"types": "./distribution/index.d.ts",
+	"files": [
+		"./distribution"
+	],
+	"scripts": {
+		"build": "pnpm run clean && tsc",
+		"build:watch": "pnpm run clean && tsc -w",
+		"clean": "del distribution",
+		"test": "vitest run"
+	}
+}

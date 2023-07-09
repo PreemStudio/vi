@@ -2,7 +2,7 @@
 	"name": "@bombenprodukt/vi-sorted-map",
 	"version": "0.1.0",
 	"description": "Sorted Set Implementation of Vi Store",
-	"repository": "https://github.com/BombenProdukt/vi",
+	"repository": "https://github.com/faustbrian/vi",
 	"funding": "https://github.com/sponsors/faustbrian",
 	"license": "MIT",
 	"author": {

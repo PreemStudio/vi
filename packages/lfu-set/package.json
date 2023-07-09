@@ -2,7 +2,7 @@
 	"name": "@bombenprodukt/vi-lfu-set",
 	"version": "0.1.0",
 	"description": "LFU Set Implementation of Vi Store",
-	"repository": "https://github.com/BombenProdukt/vi",
+	"repository": "https://github.com/faustbrian/vi",
 	"funding": "https://github.com/sponsors/faustbrian",
 	"license": "MIT",
 	"author": {

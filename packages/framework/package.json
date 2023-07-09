@@ -2,7 +2,7 @@
 	"name": "@bombenprodukt/vi-framework",
 	"version": "1.0.0",
 	"description": "A common interface for reusable Value Store implementations in TypeScript.",
-	"repository": "https://github.com/BombenProdukt/vi",
+	"repository": "https://github.com/faustbrian/vi",
 	"funding": "https://github.com/sponsors/faustbrian",
 	"license": "MIT",
 	"author": {

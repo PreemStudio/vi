@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="https://github.com/BombenProdukt/vi/actions">
+    <a href="https://github.com/faustbrian/vi/actions">
         <img src="https://badge.sh/github/check-runs/BombenProdukt/vi" alt="Checks" />
     </a>
     <a href="https://www.npmjs.com/package/@bombenprodukt/vi-framework">
@@ -15,7 +15,7 @@
 
 ## About vi
 
-This project was created by, and is maintained by [BombenProdukt](https://github.com/BombenProdukt), and is a framework-agnostic approach to building pragmatic value stores using TypeScript. Be sure to browse through the [changelog](CHANGELOG.md), [code of conduct](.github/CODE_OF_CONDUCT.md), [contribution guidelines](.github/CONTRIBUTING.md), [license](LICENSE), and [security policy](.github/SECURITY.md).
+This project was created by, and is maintained by [Brian Faust](https://github.com/faustbrian), and is a framework-agnostic approach to building pragmatic value stores using TypeScript. Be sure to browse through the [changelog](CHANGELOG.md), [code of conduct](.github/CODE_OF_CONDUCT.md), [contribution guidelines](.github/CONTRIBUTING.md), [license](LICENSE), and [security policy](.github/SECURITY.md).
 
 ## Installation
 
@@ -30,8 +30,8 @@ $ pnpm install @bombenprodukt/vi-{implementation}
 
 ## Available Packages
 
-| Package                                         | Downloads                                                                                                                        | License                                                                                                                      | Version                                                                                                                   |
-| ----------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| Package                                           | Downloads                                                                                                                            | License                                                                                                                          | Version                                                                                                                          |
+| ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
 | [@bombenprodukt/capped-set](/packages/capped-set) | [![Downloads](https://badge.sh/npm/downloads/@bombenprodukt/capped-set)](https://www.npmjs.com/package/@bombenprodukt/vi-capped-set) | [![Version](https://badge.sh/npm/version/@bombenprodukt/capped-set)](https://www.npmjs.com/package/@bombenprodukt/vi-capped-set) | [![License](https://badge.sh/npm/license/@bombenprodukt/capped-set)](https://www.npmjs.com/package/@bombenprodukt/vi-capped-set) |
 | [@bombenprodukt/fast-set](/packages/fast-set)     | [![Downloads](https://badge.sh/npm/downloads/@bombenprodukt/fast-set)](https://www.npmjs.com/package/@bombenprodukt/vi-fast-set)     | [![Version](https://badge.sh/npm/version/@bombenprodukt/fast-set)](https://www.npmjs.com/package/@bombenprodukt/vi-fast-set)     | [![License](https://badge.sh/npm/license/@bombenprodukt/fast-set)](https://www.npmjs.com/package/@bombenprodukt/vi-fast-set)     |
 | [@bombenprodukt/framework](/packages/framework)   | [![Downloads](https://badge.sh/npm/downloads/@bombenprodukt/framework)](https://www.npmjs.com/package/@bombenprodukt/vi-framework)   | [![Version](https://badge.sh/npm/version/@bombenprodukt/framework)](https://www.npmjs.com/package/@bombenprodukt/vi-framework)   | [![License](https://badge.sh/npm/license/@bombenprodukt/framework)](https://www.npmjs.com/package/@bombenprodukt/vi-framework)   |

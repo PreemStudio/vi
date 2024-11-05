@@ -1,0 +1,33 @@
+{
+	"name": "@faustbrian/vi-lfu-set",
+	"version": "0.1.0",
+	"description": "LFU Set Implementation of Vi Store",
+	"repository": "https://github.com/basecodeoy/vi",
+	"funding": "https://github.com/sponsors/faustbrian",
+	"license": "MIT",
+	"author": {
+		"name": "Brian Faust",
+		"email": "hello@basecode.sh",
+		"url": "https://basecode.sh"
+	},
+	"type": "module",
+	"main": "./distribution/index.js",
+	"types": "./distribution/index.d.ts",
+	"files": [
+		"./distribution"
+	],
+	"scripts": {
+		"build": "pnpm run clean && tsc",
+		"build:watch": "pnpm run clean && tsc -w",
+		"clean": "del distribution",
+		"test": "vitest run"
+	},
+	"dependencies": {
+		"@faustbrian/vi-framework": "workspace:*",
+		"collections": "^5.1.12"
+	},
+	"devDependencies": {
+		"@faustbrian/vi-test-suite": "workspace:*",
+		"@types/collections": "^5.1.2"
+	}
+}
